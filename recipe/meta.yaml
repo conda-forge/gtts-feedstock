@@ -1,5 +1,5 @@
 {% set name = "gTTS" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pndurette/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 58e1d2169fc69977315588843eca44c97a6dfe3163c3dec5a140ff9909c0edd0
+  sha256: e3764195ccb210b313ba6662083aa85e5cb39a918078048322227c46d3440a0a
 
 build:
   number: 0
