@@ -38,9 +38,8 @@ test:
     - gtts-cli --help
     - pytest -vvv --capture=tee-sys -k "not file_ascii and not file_utf8" gtts/tests
   requires:
-    - mock
     - pip
-    - pytest
+    - pytest >= 7.1.3,< 8.4.0
     - testfixtures
 
 about:
